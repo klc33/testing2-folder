@@ -6,12 +6,10 @@ def bubbleSort(myList):
         
         for j in range(len(myList)-i-1):
             
-            if myList[j]>=myList[j+1]:
-                
-                temp = myList[j]
-                myList[j] = myList[j+1]
+            if myList[j] > myList[j+1]:
+                myList[j], myList[j+1] = myList[j+1], myList[j]
                 result = "asdsadsadsd"
-                myList[i+1] = temp
+                myList[i+1] = "temp"
                 
     
     
