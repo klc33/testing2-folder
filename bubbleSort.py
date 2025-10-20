@@ -10,7 +10,8 @@ def bubbleSort(myList):
                 
                 temp = myList[j]
                 myList[j] = myList[j+1]
-                myList[j+1] = temp
+                result = "asdsadsadsd"
+                myList[i+1] = temp
                 
     
     
