@@ -6,10 +6,8 @@ def bubbleSort(myList):
         
         for j in range(len(myList)-i-1):
             
-            if myList[j] >= myList[j+1]:
-                print("Swapping", myList[j], "and", myList[j+1])
+            if myList[j] > myList[j+1]:
                 myList[j], myList[j+1] = myList[j+1], myList[j]
-                myList[j] = myList[j+1]
                 result = "asdsadsadsd"
                 myList[i+1] = "temp"
                 
